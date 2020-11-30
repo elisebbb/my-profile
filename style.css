@@ -1,0 +1,89 @@
+/* Color and fonts */
+
+body {
+	background-color: rgb(240, 240, 245);
+	color: rgb(30,30,30);
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px; 
+	text-align: center;
+	list-style: none
+}
+
+h1 {
+	color: rgb(255, 255, 255, 0.7); 
+	font-family: 'DM Serif Display', serif;;
+	font-size: 50px;
+	letter-spacing: 10px;
+}
+h2{
+	color: rgb(255, 255, 255, 0.7);	
+	font-family: 'DM Serif Display', serif;;
+	letter-spacing: 5px
+}
+p{
+	font-weight: lighter;
+	text-justify:center;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+	font-weight:bold;
+	color: black;
+}
+a:hover {
+	color: rgb(100, 100, 120);
+}
+
+div{
+    background: rgb(230, 230, 250);
+    padding: 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 7px 30px rgba(50,50,95,.1);
+    width: 500px;
+    margin: 30px auto;
+}
+.img-circle{
+	border-radius: 50%;
+}
+#btn-linkedin{
+	background-color: rgb(100, 100, 130)
+	color:white;
+	padding:15px 20px;
+	border-radius: 5px
+}
+.list-inline{
+	list-style:none;
+	padding-left: 0px
+}
+.list-inline li{
+	display: inline;
+	padding: 30px
+}
+.list-inline i{
+	font-size: 30px;
+}
+.list{
+	list-style:none;
+	padding-left: 0px
+}
+.list li{
+	padding: 10px
+}
+.list i{
+	background-color: rgb(100, 100, 130)
+	color:white;
+	padding:15px 20px;
+	border-radius: 5px
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px
+	}
+}
+@media (max-width: 500px) {
+	.container{
+		width: 400px
+	}
+}
